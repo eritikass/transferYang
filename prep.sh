@@ -22,4 +22,5 @@ mkdir -p ../transferYang_deploy/images
 cp images/*.* ../transferYang_deploy/images
 
 # create zip for sharing
-zip -r ../transferYang_deploy.zip ../transferYang_deploy
+cd ../transferYang_deploy
+zip -r ../transferYang_deploy.zip .
