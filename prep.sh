@@ -3,6 +3,10 @@
 # have to be installed
 # https://www.npmjs.com/package/minifier
 
+#cleanup
+rm -fr ../transferYang_deploy
+rm -fr ../transferYang_deploy.zip
+
 # make tmp dir
 mkdir -p ../transferYang_deploy
 
