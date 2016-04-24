@@ -16,11 +16,14 @@
 
     background-color: #F7F7F9;
     border: 1px solid #232F3E;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
 
     z-index: 99999;
+}
+
+#pricechecked_amazon .pricechecked_amazon {
+    float: left;
+    width: 100%;
 }
 
 #pricechecked_amazon,

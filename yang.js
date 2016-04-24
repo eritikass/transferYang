@@ -327,7 +327,7 @@
         });
 
 
-        var height = (30 * displayList.length) + 38;
+        var height =  $area.height();
 
         if (SHOW_LOGO1) {
             var $ltw = $("<div />").addClass('pricechecked_amazon_logotw')
@@ -386,6 +386,8 @@
                 $hideshow.html('hide');
                 $area1.css('height', height + 'px');
             });
+
+        height += 23;
 
         $area1
             .append($("<span></span>").addClass('pricechecked_amazon_copyr').html('© 2016 transferYang'))
