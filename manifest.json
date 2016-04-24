@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "transferYang",
+  "description": "find Amazon local with best price",
+  "version": "0.0.0.1",
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "icons": {
+    "512": "images/icon.png"
+  },
+  "permissions": [
+    "*://www.amazon.com/",
+    "*://www.amazon.co.uk/",
+    "*://www.amazon.de/",
+    "*://www.amazon.ca/",
+    "*://www.amazon.es/",
+    "*://www.amazon.fr/",
+    "*://www.amazon.it/",
+    "https://test-restgw.transferwise.com/",
+    "*://api.fixer.io/latest"
+  ],
+  "web_accessible_resources": [
+    "images/*.*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.amazon.com/*",
+        "*://www.amazon.co.uk/*",
+        "*://www.amazon.de/*",
+        "*://www.amazon.ca/*",
+        "*://www.amazon.es/*",
+        "*://www.amazon.fr/*",
+        "*://www.amazon.it/*"
+      ],
+      "css": [
+        "yang.css"
+      ],
+      "js": [
+        "jquery.min.js",
+        "yang.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}

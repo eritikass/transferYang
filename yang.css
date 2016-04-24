@@ -1,0 +1,192 @@
+#pricechecked_amazon,
+#pricechecked_amazon * {
+    padding: 0;
+    margin: 0;
+
+    font-size: 13px;
+}
+
+#pricechecked_amazon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+    height: 60px;
+    width: 305px;
+
+    background-color: #F7F7F9;
+    border: 1px solid #232F3E;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    z-index: 99999;
+}
+
+#pricechecked_amazon,
+#pricechecked_amazon .pricechecked_amazon_linky {
+    color: black;
+}
+
+#pricechecked_amazon .pricechecked_amazon_linky {
+    text-decoration: none;
+}
+
+#pricechecked_amazon .pricechecked_amazon_rr0 {
+    width: 23px;
+}
+
+/*
+#pricechecked_amazon .pricechecked_amazon_rr1 {
+    width: 68px;
+}
+*/
+
+#pricechecked_amazon .pricechecked_amazon_rr2 {
+    width: 87px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_rr3 {
+    width: 87px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_rr4 {
+    width: 59px;
+    padding-right: 5px;
+}
+
+#pricechecked_amazon table td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#pricechecked_amazon > img {
+    width: 295px;
+    margin: 5px;
+}
+
+#pricechecked_amazon > span {
+    margin: 10px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb {
+    width: 100%;
+    margin-top: 5px;
+
+    border-top: 1px solid #F7F7F9;
+    border-bottom: 1px solid #F7F7F9;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb:hover {
+    border-top: 1px solid #232F3E;
+    border-bottom: 1px solid #232F3E;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb.pricechecked_amazon_titles {
+    border-top: 1px solid #F7F7F9;
+    border-bottom: 1px solid grey;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb.pricechecked_amazon_titles td {
+    text-align: center;
+    margin-right: 2px;
+    color: grey;
+    font-weight: bold;
+}
+
+#pricechecked_amazon  .pricechecked_amazon_off0 .pricechecked_amazon_rr4 {
+    font-weight: bold;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb.pricechecked_amazon_curhost {
+    background-color: #E6F8E0;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb .pricechecked_amazon_flagcol img {
+    width: 18px;
+    padding-top: 4px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb .pricechecked_amazon_numbcol {
+    text-align: right;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb .pricechecked_amazon_numbcol.pricechecked_amazon_numbcolpos {
+    color: green;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb .pricechecked_amazon_numbcol.pricechecked_amazon_numbcolneg {
+    color: red;
+}
+
+#pricechecked_amazon .pricechecked_amazon_tb strong.pricechecked_amazon_name {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    font-size: 110%;
+    padding-left: 9px;
+}
+
+
+#pricechecked_amazon .pricechecked_amazon_logotw {
+    border-top: 1px solid grey;
+    margin-top: 14px;
+    position: relative;
+}
+
+#pricechecked_amazon .pricechecked_amazon_logotw span {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+
+}
+
+#pricechecked_amazon .pricechecked_amazon_logor2 span,
+#pricechecked_amazon .pricechecked_amazon_logotw span {
+    font-style: italic;
+    color: gray;
+}
+
+#pricechecked_amazon .pricechecked_amazon_logor2 span {
+    padding-left: 4px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_logos2 {
+    width: 95%;
+    margin-left: 1px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_logos2 .pricechecked_amazon_logos2l img {
+    max-height: 50px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_logos2 .pricechecked_amazon_logos2l {
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#pricechecked_amazon .pricechecked_amazon_copyr,
+#pricechecked_amazon .pricechecked_amazon_showhide {
+    text-decoration: underline;
+    color: #48a3c6;
+    float: right;
+    cursor: pointer;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#pricechecked_amazon .pricechecked_amazon_copyr {
+    float: left;
+    cursor: default;
+    color: grey;
+    text-decoration: none;
+}
